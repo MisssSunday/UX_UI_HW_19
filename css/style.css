@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: din-2014, sans-serif;
+}
+
+.header {
+    display: block;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.logo {
+
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logoImage {
+    height: 50px;
+}
+
+.navigation {
+    /* display: block; */
+    background-color: white;
+    /* float: none;
+    left: 40%;
+    padding-left: 36%; */
+
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: auto;
+}
+
+.navigationList {
+
+    /* padding: 17px; */
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navigationListItem {
+    /* display: inline-block; */
+    /* background-color:white; */
+    /* height: 90px; */
+    width: 120px;
+    /* padding: 25px; */
+    text-align:center;
+    /* float: initial; */
+}
+
+.hero {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 5px;
+    width: 960px;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+}
+
+.imageContainer {
+
+    margin-left: 0%;
+    align-items: center;
+    padding: 10px 30px;
+
+}
+
+.description {
+
+    margin-left: 30px;
+}
+
+.image {
+    padding-left: 0;
+
+}
+
+.circle {
+    width: 150px;
+    height: 40px;
+    background-color: aliceblue;
+}
+
+.image2 {
+    width: 300px;
+    height: 30px;
+    /* position: fixed; top: 190px;
+    left: 39%; */
+}
+.yanniLu {
+    width: 300px;
+    height: 30px;
+    margin-top: -20px;
+    margin-left: 0;
+    /* position: fixed; top: 200px;
+    left: 40%; */
+    font-size: 28px;
+    font-family:Oxygen,'Helvetica Neue';
+
+}
+
+.aboutMe1, .aboutMe2 {
+    width: 540px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+
+
+.line {
+    /* object-position: center;
+    position: fixed; top: 500px;
+    left: 15% */
+    margin-top: 30px;
+    width: 100%;
+}
+
+.lineImage {
+    height: 1px;
+    width: 100%;
+}
+
+.caseStudy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 5px;
+    width: 960px;
+    margin: auto;
+}
+
+
+
+
+
+
+.woodWorthCabinetryTitle {
+    width: 540px;
+    height: 30px;
+    font-size: 18px; 
+}
+
+.woodWorthCabinetryLine {
+    width: 540px;
+    height: 30px;
+
+}
+
+.woodWorthCabinetryContent {
+    width: 540px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.woodWorthCabinetryContent2 {
+    width: 540px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.woodWorthCabinetryImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.woodWorthCabinetryContent3 {
+    width: 540px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+.furnitureBankTitle {
+    width: 540px;
+    height: 30px;
+    font-size: 18px; 
+}
+
+.furnitureBankLine {
+    width: 540px;
+    height: 30px;
+}
+
+.furnitureBankContent {
+    width: 540px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.furnitureBankContent2 {
+    width: 540px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.furnitureBankImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ 
+}
+
+.furnitureBankContent3 {
+    width: 540px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+.airbnbHomeOfficeTitle {
+    width: 540px;
+    height: 30px;
+    font-size: 18px; 
+}
+
+.airbnbHomeOfficeLine {
+    width: 540px;
+    height: 30px; 
+}
+
+.airbnbHomeOfficeContent {
+    width: 540px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.airbnbHomeOfficeContent2 {
+    width: 540px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.airbnbHomeOfficeImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ 
+}
+
+.airbnbHomeOfficeContent3 {
+    width: 540px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+.torontoMandarinSchoolTitle {
+    width: 540px;
+    height: 30px;
+    font-size: 18px; 
+}
+
+.torontoMandarinSchoolLine {
+    width: 540px;
+    height: 30px;
+}
+
+.torontoMandarinSchoolContent {
+    width: 540px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.torontoMandarinSchoolContent2 {
+    width: 540px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.torontoMandarinSchoolImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ 
+}
+
+.torontoMandarinSchoolContent3 {
+    width: 540px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
+}
